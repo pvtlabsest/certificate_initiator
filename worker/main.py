@@ -7,7 +7,7 @@ from app.repositories.event_repository import EventRepository
 from app.repositories.user_repository import UserRepository
 
 QUEUE_NAME = "certificate_queue"
-
+#main.py
 
 def process_certificate(certificate_id: int):
 
